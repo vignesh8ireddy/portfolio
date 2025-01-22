@@ -1,0 +1,20 @@
+.no-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
+  nav {
+    transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
+  }
+  
+  .translate-y-0 {
+    transform: translateY(0); /* Navbar visible */
+  }
+  
+  .-translate-y-full {
+    transform: translateY(-100%); /* Navbar hidden */
+  }
+  
