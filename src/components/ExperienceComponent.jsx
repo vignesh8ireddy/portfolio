@@ -17,11 +17,11 @@ const experience = [
 
 const ExperienceComponent = () => {
   return (
-    <div id="experience" className="p-6 lg:p-12 bg-gray-50" >
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
+    <div id="experience" className="p-6 lg:pt-40 mx-auto max-w-6xl font-title" >
+      <h2 className="text-3xl md:text-4xl text-center text-gray-800 mb-8">
         Experience
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 px-8">
         {experience.map((exp, index) => (
           <div
             key={index}

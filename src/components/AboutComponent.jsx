@@ -10,7 +10,7 @@ const AboutComponent = () => {
 
     <div id="about"
       
-      className="p-6 md:p-10 lg:pt-40 mx-auto max-w-6xl font-title"
+      className="p-6 md:p-10 lg:pt-36 mx-auto max-w-6xl font-title"
     >
       <h1 className="text-4xl pb-5 text-center md:text-3xl lg:text-5xl text-gray-800 mb-4">
         I'm Vignesh R. Ireddy,
@@ -26,9 +26,9 @@ const AboutComponent = () => {
         make a meaningful difference through my work.
       </p>
       <div className="flex justify-center">
-        <FontAwesomeIcon  className="size-10 p-5" icon={ faLinkedin } />
-        <FontAwesomeIcon className="size-10 p-5" icon={ faGithub } />
-        <FontAwesomeIcon className="size-10 p-5" icon={ faEnvelope } />
+        <a href="https://linkedin.com/in/vignesh8reddy" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faLinkedin } /></a>
+        <a href="https://github.com/vignesh8reddy" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faGithub } /></a>
+        <a href="mailto:vignesh9reddy@gmail.com" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faEnvelope } /></a>
       </div>
 
     </div>

@@ -7,7 +7,7 @@ const NavbarComponent = () => {
         {/* Logo Section */}
         <div className="space-x-6 text-sm md:text-base">
           <a
-            href="#home"
+            href="https://vigneshreddyireddy.com"
             className="hover:text-gray-400 transition duration-300"
           >
             Vignesh Reddy Ireddy
@@ -16,12 +16,6 @@ const NavbarComponent = () => {
 
         {/* Navigation Links */}
         <div className="space-x-6 text-sm md:text-base">
-          <a
-            href="#about"
-            className="hover:text-gray-400 transition duration-300"
-          >
-            About
-          </a>
           <a
             href="#skills"
             className="hover:text-gray-400 transition duration-300"

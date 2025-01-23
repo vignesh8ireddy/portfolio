@@ -142,7 +142,7 @@ const skills = [
 
 const SkillsComponent = () => {
     return (
-      <div id="skills" className="p-6 md:p-10 lg:pt-40 mx-auto max-w-4xl font-title">
+      <div id="skills" className="p-6 md:p-10 lg:pt-24 mx-auto max-w-4xl font-title">
         <h1 className="text-4xl text-center text-gray-800 mb-8">Skills</h1>
         {skills.map((category, index) => (
           <div key={index} className="mb-2">
