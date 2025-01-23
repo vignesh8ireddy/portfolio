@@ -10,9 +10,9 @@ const AboutComponent = () => {
 
     <div id="about"
       
-      className="p-6 md:p-10 lg:pt-36 mx-auto max-w-6xl font-title"
+      className="p-6 md:p-10 lg:pt-44 pb-16 mx-auto max-w-6xl font-title"
     >
-      <h1 className="text-4xl pb-5 text-center md:text-3xl lg:text-5xl text-gray-800 mb-4">
+      <h1 className="text-4xl pb-5 text-center md:text-3xl lg:text-5xl text-gray-800 mb-10">
         I'm Vignesh R. Ireddy,
       </h1>
       <p className="text-base text-justify md:text-lg lg:text-xl text-gray-600 leading-relaxed">

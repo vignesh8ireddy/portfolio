@@ -1,20 +1,24 @@
 .no-scrollbar {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer and Edge */
-  }
-  .no-scrollbar::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
-  }
-  
-  nav {
-    transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
-  }
-  
-  .translate-y-0 {
-    transform: translateY(0); /* Navbar visible */
-  }
-  
-  .-translate-y-full {
-    transform: translateY(-100%); /* Navbar hidden */
-  }
-  
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+nav {
+  transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
+  position: fixed; /* Fix navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.translate-y-0 {
+  transform: translateY(0); /* Navbar visible */
+}
+
+.-translate-y-full {
+  transform: translateY(-100%); /* Navbar hidden */
+}
