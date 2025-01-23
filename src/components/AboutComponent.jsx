@@ -10,7 +10,7 @@ const AboutComponent = () => {
 
     <div id="about"
       
-      className="p-6 md:p-10 lg:pt-44 pb-16 mx-auto max-w-6xl font-title"
+      className="pt-32 px-4 md:p-10 lg:pt-44 pb-16 mx-auto max-w-6xl font-title"
     >
       <h1 className="text-4xl pb-5 text-center md:text-3xl lg:text-5xl text-gray-800 mb-10">
         I'm Vignesh R. Ireddy,
