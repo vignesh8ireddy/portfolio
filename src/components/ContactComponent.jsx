@@ -13,7 +13,7 @@ const ContactComponent = () => {
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-gray-400 mr-2'></FaEnvelope>
                 <a href="mailto:vignesh9reddy@gmail.com" className='hover:underline'>
-                vignesh9reddy@gmail.com.com
+                vignesh9reddy@gmail.com
                 </a>
             </div>
             <div className='mb-4'>
