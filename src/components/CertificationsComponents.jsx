@@ -11,7 +11,7 @@ const certifications = [
   },
   {
     id: 2,
-    name: "GATE 2022 (Organised by IIT Kanpur) Qualified",
+    name: "GATE 2023 (Organised by IIT Kanpur) Qualified",
     logo: gatelogo,
     credentials: "https://github.com/vignesh8reddy/GATE2022/blob/main/C103V46ScoreCard.pdf",
   }
