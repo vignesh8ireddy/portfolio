@@ -4,7 +4,7 @@ const experience = [
   {
     Company: "Siliconbricks Technologies",
     Role: "Full Stack Java Developer",
-    Duration: "Aug 2021 - Jul 2024",
+    Duration: "Aug 2021 - Jul 2023",
     Location: "Bangalore, India",
   },
   {
