@@ -1,35 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.pageYOffset || document.documentElement.scrollTop; // for better compatibility
-      if (currentScrollY > lastScrollY) {
-        // Scrolling down
-        setIsVisible(false);
-      } else {
-        // Scrolling up
-        setIsVisible(true);
-      }
-      setLastScrollY(currentScrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [lastScrollY]);
 
   return (
-    <nav
-      className={`bg-gray-50 text-gray-500 px-5 md:px-16 lg:px-10 font-title transition-transform duration-300 ${
-        isVisible ? 'translate-y-0' : '-translate-y-full'
-      }`}
-    >
+    <nav className="bg-gray-50 text-gray-500 px-5 md:px-16 lg: px-10 top-0 z-50 font-title sticky">
       <div className="container py-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="text-sm md:text-base font-semibold">
