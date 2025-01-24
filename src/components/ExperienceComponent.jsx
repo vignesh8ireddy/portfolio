@@ -2,9 +2,15 @@ import React from "react";
 
 const experience = [
   {
-    Company: "Siliconbricks Technologies",
-    Role: "Full Stack Java Developer",
-    Duration: "Aug 2021 - Jul 2023",
+    Company: "Siliconbricks Technologies Pvt. Ltd.",
+    Role: "Full Stack Developer",
+    Duration: "Jun 2022 - Jul 2023",
+    Location: "Bangalore, India",
+  },
+  {
+    Company: "Siliconbricks Technologies Pvt. Ltd.",
+    Role: "Software Engineer",
+    Duration: "Aug 2021 - May 2022",
     Location: "Bangalore, India",
   },
   {
@@ -12,7 +18,7 @@ const experience = [
     Role: "Software Engineer Intern",
     Duration: "Jan 2021 - May 2021",
     Location: "Bangalore, India",
-  },
+  }
 ];
 
 const ExperienceComponent = () => {
