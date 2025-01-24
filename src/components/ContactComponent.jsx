@@ -5,7 +5,7 @@ const ContactComponent = () => {
   return (
     <div className="text-gray-400 p-6 lg:pt-24 mx-auto max-w-6xl font-title" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 max-w-6xl">
-        <h2 className="text-4xl text-gray-800  text-center mb-12">Contact Me</h2>
+        <h2 className="text-4xl text-gray-800  text-center mb-12">CONTACT ME</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <div className="flex-1">
             <h3 className='text-3xl pb-4'>Let's Talk</h3>
@@ -18,11 +18,12 @@ const ContactComponent = () => {
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-gray-400 mr-2'></FaPhone>
-                <span>+1-913-233-9307</span>
+                <a href="tel:+1-913-233-9307" className='hover:underline'><span>+1-913-233-9307</span></a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-gray-400 mr-2'></FaMapMarkedAlt>
-                <span>13929 Barkley Street, Overland Park, KS, 66223</span>
+                <a href="https://www.google.com/maps?q=13929+Barkley+St,+Overland+Park,+KS+66223"  className='hover:underline'>
+                <span>13929 Barkley Street, Overland Park, KS, 66223</span></a>
             </div>
           </div>
           <div className='flex-1 w-full'>

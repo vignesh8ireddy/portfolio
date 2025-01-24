@@ -13,14 +13,14 @@ import Hero from "./assets/vignesh.jpg"; // Import the hero image
 
 function App() {
   return (
-    <div className="bg-gray-50 flex flex-col">
+    <div className="bg-gray-50 flex flex-col h-screen">
       {/* Navbar Component */}
       <NavbarComponent />
 
       {/* Main Content */}
       <div className="flex flex-1">
         {/* Scrollable Left Content Area */}
-        <div className="bg-gray-50 overflow-y-auto no-scrollbar flex-1">
+        <div className="bg-gray-50 flex-1 overflow-y-scroll no-scrollbar">
           {/* Add padding to prevent content from being hidden under the navbar */}
           <div className="pt-16">
             <AboutComponent />

@@ -10,10 +10,10 @@ const AboutComponent = () => {
 
     <div id="about"
       
-      className="pt-32 px-4 md:p-10 lg:pt-44 pb-16 mx-auto max-w-6xl font-title"
+      className="pt-32 px-4 md:p-10 lg:pt-40 pb-16 mx-auto max-w-6xl font-title"
     >
       <h1 className="text-4xl pb-5 text-center md:text-3xl lg:text-5xl text-gray-800 mb-10">
-        I'm Vignesh R. Ireddy,
+        I'm VIGNESH R. IREDDY,
       </h1>
       <p className="text-base text-justify md:text-lg lg:text-xl text-gray-600 leading-relaxed">
         a full-stack developer with expertise in building scalable and robust

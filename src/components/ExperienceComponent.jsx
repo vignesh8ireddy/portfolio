@@ -23,15 +23,15 @@ const experience = [
 
 const ExperienceComponent = () => {
   return (
-    <div id="experience" className="p-6 lg:pt-40 mx-auto max-w-6xl font-title" >
+    <div id="experience" className="p-6 lg:pt-28   mx-auto max-w-6xl font-title" >
       <h2 className="text-3xl md:text-4xl text-center text-gray-800 mb-8">
-        Experience
+        WORK EXPERIENCE
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 px-8">
         {experience.map((exp, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-lg p-6 border border-gray-200 transition-transform transform hover:scale-105"
+            className="bg-gray-50 shadow-lg rounded-lg p-6 border border-gray-200 transition-transform transform hover:scale-105"
           >
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               {exp.Role}

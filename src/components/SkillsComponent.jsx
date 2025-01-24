@@ -142,12 +142,12 @@ const skills = [
 
 const SkillsComponent = () => {
     return (
-      <div id="skills" className="p-6 md:p-10 lg:pt-24 mx-auto max-w-4xl font-title">
-        <h1 className="text-4xl text-center text-gray-800 mb-8">Skills</h1>
+      <div id="skills" className="p-6 md:p-10 lg:pt-28 mx-auto max-w-4xl font-title">
+        <h1 className="text-4xl text-center text-gray-800 mb-8">SKILLS</h1>
         {skills.map((category, index) => (
           <div key={index} className="mb-2">
             <h2 className="text-sm text-gray-400 mb-2">{category.title}</h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 px-20">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 px-20">
               {category.skillset.map((skill, idx) => (
                 <div
                   key={idx}

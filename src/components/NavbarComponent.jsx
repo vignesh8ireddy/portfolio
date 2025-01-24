@@ -5,11 +5,11 @@ const NavbarComponent = () => {
 
   return (
     <nav className="bg-gray-50 text-gray-500 fixed w-full h-16 top-0 z-50 shadow">
-  <div className="container h-full w-full px-5 flex items-center justify-between">
+      <div className="container h-full w-full px-5 flex items-center justify-between">
 
         {/* Left-Aligned Logo */}
-        <div className="flex-1 text-sm md:text-base font-semibold">
-          <a href="https://vigneshreddyireddy.com" className="hover:text-gray-400 transition duration-300">
+        <div className="flex-1 text-sm md:text-xl font-semibold hover:text-gray-700">
+          <a href="https://vigneshreddyireddy.com"  >
             Vignesh Reddy Ireddy
           </a>
         </div>
@@ -50,36 +50,21 @@ const NavbarComponent = () => {
             isOpen ? 'block' : 'hidden'
           } absolute top-16 right-0 w-full bg-gray-50 justify-end md:relative md:top-0 md:right-auto md:flex md:justify-end md:items-center md:space-x-6 text-sm md:text-base`}
         >
-          <a
-            href="#skills"
-            className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:bg-gray-100 md:hover:bg-transparent text-right md:text-left"
-          >
-            Skills
-          </a>
-          <a
-            href="#experience"
-            className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:bg-gray-100 md:hover:bg-transparent text-right md:text-left"
-          >
-            Experience
-          </a>
-          <a
-            href="#projects"
-            className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:bg-gray-100 md:hover:bg-transparent text-right md:text-left"
-          >
-            Projects
-          </a>
-          <a
-            href="#certifications"
-            className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:bg-gray-100 md:hover:bg-transparent text-right md:text-left"
-          >
-            Certifications
-          </a>
-          <a
-            href="#contact"
-            className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:bg-gray-100 md:hover:bg-transparent text-right md:text-left"
-          >
-            Contact Me
-          </a>
+          {[
+            { href: '#skills', label: 'Skills' },
+            { href: '#experience', label: 'Experience' },
+            { href: '#projects', label: 'Projects' },
+            { href: '#certifications', label: 'Certifications' },
+            { href: '#contact', label: 'Contact Me' },
+          ].map((link, index) => (
+            <a
+              key={index}
+              href={link.href}
+              className="block px-5 py-3 md:px-0 md:py-0 border-b border-gray-200 md:border-none hover:scale-105 hover:text-gray-700 text-right md:text-left transition-transform duration-300"
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
       </div>
     </nav>
