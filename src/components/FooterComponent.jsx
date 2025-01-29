@@ -13,13 +13,13 @@ const FooterComponent = () => {
             &copy; 2021 - {new Date().getFullYear()} Vignesh Reddy Ireddy. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0"> 
-            <a href="https://www.linkedin.com/in/vignesh8reddy" className="text-gray-400 hover:text-black">
+            <a href="https://www.linkedin.com/in/vignesh8ireddy" className="text-gray-400 hover:text-black">
               <FaLinkedin />
             </a>
-            <a href="https://www.github.com/vignesh8reddy" className="text-gray-400 hover:text-black">
+            <a href="https://www.github.com/vignesh8ireddy" className="text-gray-400 hover:text-black">
               <FaGithub />
             </a>
-            <a href="mailto:vignesh9reddy@gmail.com" className="text-gray-400 hover:text-black">
+            <a href="mailto:vignesh8ireddy@gmail.com" className="text-gray-400 hover:text-black">
               <FaEnvelope />
             </a>
           </div>

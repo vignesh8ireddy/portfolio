@@ -19,7 +19,7 @@ const certifications = [
 
 const CertificationsComponent = () => {
   return (
-    <div id="certifications" className="p-6 lg:pt-40 mx-auto max-w-6xl font-title">
+    <div id="certifications" className="p-16 mt-8 lg:pt-40 mx-auto max-w-6xl font-title">
       <h2 className="text-3xl md:text-4xl text-center text-gray-800 mb-8">
         CERTIFICATIONS & ACHIEVEMENTS
       </h2>
