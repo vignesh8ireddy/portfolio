@@ -43,7 +43,7 @@ const ExperienceComponent = () => {
           key={index}
           className="bg-gray-50 shadow-lg rounded-lg p-6 border border-gray-200 m-6 transition-transform transform hover:scale-105"
         >
-          <div className="flex flex-col md:flex-row md:justify-between mb-4">
+          <div className="flex flex-col md:flex-row md:justify-between mb-6">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900">
                 {exp.title}
