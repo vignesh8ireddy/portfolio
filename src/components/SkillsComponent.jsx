@@ -14,7 +14,7 @@ import MongoDB from "../assets/skills/mongodb.png";
 import Mysql from "../assets/skills/mysql.png";
 import Nodejs from "../assets/skills/nodejs.png";
 import Npm from "../assets/skills/npm.png";
-import Oracle from "../assets/skills/oracle.png";
+import PostgreSQL from "../assets/skills/postgresql.png";
 import Python from "../assets/skills/python.png";
 import react from "../assets/skills/react.png";
 import Redis from "../assets/skills/redis.png";
@@ -100,8 +100,8 @@ const skills = [
                 logo: Mysql
             },
             {
-                tech: "Oracle SQL",
-                logo: Oracle
+                tech: "PostgreSQL",
+                logo: PostgreSQL
             },
             {
                 tech: "MongoDB",
