@@ -11,7 +11,7 @@ const ExperienceComponent = () => {
         "Developed enterprise-grade Java applications using Spring Boot and Dropwizard, ensuring high performance and scalability across distributed systems.",
         "Designed and implemented RESTful APIs with Java 8, optimizing backend-to-frontend communication and processing 10,000+ API requests daily.",
         "Built and maintained microservices with Spring Boot and Hibernate, improving modularity and maintainability across 12+ independent services.",
-        "Optimized database queries in Oracle SQL, reducing response times by 20ms through efficient indexing and normalization techniques.",
+        "Optimized database queries in PostgreSQL, reducing response times by 20ms through efficient indexing and normalization techniques.",
         "Implemented Test-Driven Development (TDD) practices using JUnit, Mockito, and Cucumber, ensuring high test coverage and minimizing defects.",
         "Developed automation scripts for UI testing with Selenium and WebDriverIO, improving test efficiency and reliability in an Agile development environment.",
         "Deployed cloud-native solutions on AWS (EC2, RDS) and integrated CI/CD pipelines using Jenkins, reducing deployment time from 2 hours to 30 minutes.",
