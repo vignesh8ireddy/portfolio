@@ -18,7 +18,7 @@ const ContactComponent = () => {
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-gray-400 mr-2'></FaPhone>
-                <a href="tel:+1-913-349-3638" className='hover:underline'><span>+1-913-349-3638</span></a>
+                <a href="tel:+1-626-662-2321" className='hover:underline'><span>+1-913-349-3638</span></a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-gray-400 mr-2'></FaMapMarkedAlt>
