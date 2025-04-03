@@ -3,33 +3,71 @@ import React from "react";
 const ExperienceComponent = () => {
   const experiences = [
     {
-      title: "Java Developer",
-      company: "Siliconbricks Technologies Pvt. Ltd.",
-      duration: "Aug 2017 - Jul 2023",
-      location: "Bengaluru, India",
+      title: "Software Engineer",
+      company: "A10 Networks, Inc.",
+      duration: "Dec 2022 - Jul 2023",
+      location: "California, USA",
       details: [
-        "Developed enterprise-grade Java applications using Spring Boot and Dropwizard, ensuring high performance and scalability across distributed systems.",
-        "Designed and implemented RESTful APIs with Java 8, optimizing backend-to-frontend communication and processing 10,000+ API requests daily.",
-        "Built and maintained microservices with Spring Boot and Hibernate, improving modularity and maintainability across 12+ independent services.",
-        "Optimized database queries in PostgreSQL, reducing response times by 20ms through efficient indexing and normalization techniques.",
-        "Implemented Test-Driven Development (TDD) practices using JUnit, Mockito, and Cucumber, ensuring high test coverage and minimizing defects.",
-        "Developed automation scripts for UI testing with Selenium and WebDriverIO, improving test efficiency and reliability in an Agile development environment.",
-        "Deployed cloud-native solutions on AWS (EC2, RDS) and integrated CI/CD pipelines using Jenkins, reducing deployment time from 2 hours to 30 minutes.",
-        "Containerized applications with Docker, standardizing environments across development, testing, and production for seamless deployment.",
-        "Secured applications using OAuth 2.0 and encryption protocols, ensuring compliance with GDPR and SOC 2 security standards.",
-        "Collaborated in Agile and SAFe development environments, participating in 12+ sprints and consistently delivering features on schedule."
-      ],
+        "Strengthened API security by integrating OAuth 2.0 and JWT authentication, reducing system vulnerabilities by 32%.",
+        "Improved communication speed by 25% through the implementation of Spring Cloud microservices and real-time Kafka message processing.",
+        "Achieved an 87.5% reduction in application runtime by optimizing Maven applications using advanced multithreading techniques.",
+        "Implemented Spring Cloud Gateway for efficient request routing, authentication, and rate limiting, ensuring secure, scalable, and high-performance microservices while enhancing system reliability and maintaining seamless traffic management.",
+        "Accelerated development time by utilizing a GraphQL API server with graphql-http, simplifying data fetching and reducing frontend complexity when interacting with the PostgreSQL database.",
+        "Enhanced multi-container architecture with Kubernetes, accelerating the development cycle and reducing deployment times for critical applications from five hours to under two hours."
+      ]
     },
+
     {
-      title: "Software Engineer Intern",
-      company: "Siliconbricks Technologies Pvt. Ltd.",
-      duration: "Jan 2017 - Jul 2017",
-      location: "Bengaluru, India",
+      title: "Software Engineer",
+      company: "Allstate",
+      duration: "Apr 2021 - Nov 2021",
+      location: "Illinois, USA",
       details: [
-        "Gained hands-on experience in backend development by assisting with the design and implementation of microservices using Spring Boot, contributing to an e-commerce platform's architecture.",
-        "Supported the integration of RESTful APIs and database management tasks, including performing CRUD operations and optimizing MongoDB queries for improved data handling and performance.",
-      ],
+        "Developed enterprise-grade Java applications using Spring Boot, ensuring high performance and scalability across distributed systems.",
+        "Designed and developed RESTful APIs using Spring Boot to facilitate seamless communication between distributed systems, optimizing data processing, request handling, and service interoperability to improve overall application efficiency.",
+        "Built and maintained microservices with Spring Boot and Hibernate, improving modularity and maintainability across 7+ independent services.",
+        "Optimized database queries in Oracle SQL, reducing response times by 20ms through efficient indexing and normalization techniques.",
+        "Integrated legacy systems using Java Database Connectivity (JDBC) and Object-Relational Mappers (ORMs) such as JPA, ensuring smooth data flow and minimizing manual intervention.",
+        "Collaborated in Agile and SAFe development environments, participating in 12+ sprints and consistently delivering features on schedule."
+      ]
     },
+    
+    {
+      title: "Software Engineer",
+      company: "MetLife",
+      duration: "Jan 2020 - Mar 2021",
+      location: "Kansas, USA",
+      details: [
+        "Implemented Test-Driven Development (TDD) practices using JUnit, Mockito, and Cucumber, ensuring high test coverage, minimizing defects.",
+        "Developed automation scripts for UI testing with Selenium and WebDriverIO, improving test efficiency and reliability in an Agile environment.",
+        "Deployed cloud-native solutions on AWS, integrated CI/CD pipelines using Jenkins & Spinnaker, reducing deployment time from 2hr to 30min.",
+        "Containerized applications with Docker and managed artifact repositories using JFrog, standardizing environments across development, testing, and production for seamless deployment.",
+        "Secured applications using OAuth 2.0 and encryption protocols, ensuring compliance with GDPR and SOC 2 security standards."
+      ]
+    },
+    
+    {
+      title: "Software Engineer",
+      company: "American Express",
+      duration: "Feb 2019 - Dec 2019",
+      location: "Newyork, USA",
+      details: [
+        ,
+    
+        {
+          title: "Software Engineer",
+          company: "MetLife",
+          duration: "Jan 2020 - Mar 2021",
+          location: "Kansas, USA",
+          details: [
+            "Engineered critical functionalities for a next-generation card payment network by implementing Vert.x and Spring Boot microservices, improving transaction processing speed by 30% while maintaining system reliability.",
+            "Optimized over 50 complex SQL queries and integrated MongoDB with AWS SDK, enhancing data retrieval efficiency by 25%.",
+            "Improved the clarity and usability of API documentation by implementing OpenAPI specifications, resulting in a 20% reduction in onboarding time for new developers and boosting cross-team integration efficiency.",
+            "Successfully deployed three microservices on Amazon EC2 using Docker, reducing deployment time by 35%."
+          ]
+        }
+      ]
+    }
   ];
 
   return (
