@@ -50,7 +50,7 @@ const ExperienceComponent = () => {
       title: "Software Engineer",
       company: "American Express",
       duration: "Feb 2019 - Dec 2019",
-      location: "Newyork, USA",
+      location: "Remote",
       details: [
             "Engineered critical functionalities for a next-generation card payment network by implementing Vert.x and Spring Boot microservices, improving transaction processing speed by 30% while maintaining system reliability.",
             "Optimized over 50 complex SQL queries and integrated MongoDB with AWS SDK, enhancing data retrieval efficiency by 25%.",
