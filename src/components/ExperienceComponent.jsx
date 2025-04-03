@@ -13,8 +13,8 @@ const ExperienceComponent = () => {
         "Achieved an 87.5% reduction in application runtime by optimizing Maven applications using advanced multithreading techniques.",
         "Implemented Spring Cloud Gateway for efficient request routing, authentication, and rate limiting, ensuring secure, scalable, and high-performance microservices while enhancing system reliability and maintaining seamless traffic management.",
         "Accelerated development time by utilizing a GraphQL API server with graphql-http, simplifying data fetching and reducing frontend complexity when interacting with the PostgreSQL database.",
-        "Enhanced multi-container architecture with Kubernetes, accelerating the development cycle and reducing deployment times for critical applications from five hours to under two hours."
-      ]
+        "Enhanced multi-container architecture with Kubernetes, accelerating the development cycle and reducing deployment times for critical applications from five hours to under two hours.",
+      ],
     },
 
     {
@@ -28,8 +28,8 @@ const ExperienceComponent = () => {
         "Built and maintained microservices with Spring Boot and Hibernate, improving modularity and maintainability across 7+ independent services.",
         "Optimized database queries in Oracle SQL, reducing response times by 20ms through efficient indexing and normalization techniques.",
         "Integrated legacy systems using Java Database Connectivity (JDBC) and Object-Relational Mappers (ORMs) such as JPA, ensuring smooth data flow and minimizing manual intervention.",
-        "Collaborated in Agile and SAFe development environments, participating in 12+ sprints and consistently delivering features on schedule."
-      ]
+        "Collaborated in Agile and SAFe development environments, participating in 12+ sprints and consistently delivering features on schedule.",
+      ],
     },
     
     {
@@ -42,8 +42,8 @@ const ExperienceComponent = () => {
         "Developed automation scripts for UI testing with Selenium and WebDriverIO, improving test efficiency and reliability in an Agile environment.",
         "Deployed cloud-native solutions on AWS, integrated CI/CD pipelines using Jenkins & Spinnaker, reducing deployment time from 2hr to 30min.",
         "Containerized applications with Docker and managed artifact repositories using JFrog, standardizing environments across development, testing, and production for seamless deployment.",
-        "Secured applications using OAuth 2.0 and encryption protocols, ensuring compliance with GDPR and SOC 2 security standards."
-      ]
+        "Secured applications using OAuth 2.0 and encryption protocols, ensuring compliance with GDPR and SOC 2 security standards.",
+      ],
     },
     
     {
@@ -52,22 +52,12 @@ const ExperienceComponent = () => {
       duration: "Feb 2019 - Dec 2019",
       location: "Newyork, USA",
       details: [
-        ,
-    
-        {
-          title: "Software Engineer",
-          company: "MetLife",
-          duration: "Jan 2020 - Mar 2021",
-          location: "Kansas, USA",
-          details: [
             "Engineered critical functionalities for a next-generation card payment network by implementing Vert.x and Spring Boot microservices, improving transaction processing speed by 30% while maintaining system reliability.",
             "Optimized over 50 complex SQL queries and integrated MongoDB with AWS SDK, enhancing data retrieval efficiency by 25%.",
             "Improved the clarity and usability of API documentation by implementing OpenAPI specifications, resulting in a 20% reduction in onboarding time for new developers and boosting cross-team integration efficiency.",
-            "Successfully deployed three microservices on Amazon EC2 using Docker, reducing deployment time by 35%."
-          ]
+            "Successfully deployed three microservices on Amazon EC2 using Docker, reducing deployment time by 35%.",
+          ],
         }
-      ]
-    }
   ];
 
   return (
