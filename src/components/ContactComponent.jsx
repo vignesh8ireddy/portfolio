@@ -12,13 +12,13 @@ const ContactComponent = () => {
             <p>I'm open to discussing web development projects or partnership opportunities.</p>
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-gray-400 mr-2'></FaEnvelope>
-                <a href="mailto:vignesh8ireddy@gmail.com" className='hover:underline'>
-                vignesh8ireddy@gmail.com
+                <a href="mailto:vigneshreddyireddy@gmail.com" className='hover:underline'>
+                vigneshreddyireddy@gmail.com
                 </a>
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-gray-400 mr-2'></FaPhone>
-                <a href="tel:+1-626-662-2321" className='hover:underline'><span>+1-913-349-3638</span></a>
+                <a href="tel:+1-626-662-2321" className='hover:underline'><span>+1-626-662-2321</span></a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-gray-400 mr-2'></FaMapMarkedAlt>
