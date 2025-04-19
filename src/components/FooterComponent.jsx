@@ -19,7 +19,7 @@ const FooterComponent = () => {
             <a href="https://www.github.com/vignesh8ireddy" className="text-gray-400 hover:text-black">
               <FaGithub />
             </a>
-            <a href="mailto:vignesh8ireddy@gmail.com" className="text-gray-400 hover:text-black">
+            <a href="mailto:vigneshreddyireddy@gmail.com" className="text-gray-400 hover:text-black">
               <FaEnvelope />
             </a>
           </div>

@@ -4,12 +4,12 @@ import AboutComponent from './components/AboutComponent';
 import ContactComponent from './components/ContactComponent';
 import FooterComponent from './components/FooterComponent';
 import NavbarComponent from './components/NavbarComponent';
-import ProjectsComponent from './components/ProjectsComponent';
 import SkillsComponent from "./components/SkillsComponent";
 import ExperienceComponent from "./components/ExperienceComponent";
 import CertificationsComponent from "./components/CertificationsComponents";
 
 import Hero from "./assets/vignesh.jpg"; // Import the hero image
+import EducationComponent from "./components/EducationComponent";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             <AboutComponent />
             <SkillsComponent />
             <ExperienceComponent />
-            <ProjectsComponent />
+            <EducationComponent />
             <CertificationsComponent />
             <ContactComponent />
             <FooterComponent />

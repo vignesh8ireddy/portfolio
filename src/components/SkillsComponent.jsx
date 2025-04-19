@@ -147,7 +147,7 @@ const skills = [
 
 const SkillsComponent = () => {
     return (
-      <div id="skills" className="p-6 md:p-10 pt-16 lg:pt-32 mx-auto max-w-4xl font-title">
+      <div id="skills" className="p-6 mt-8 md:p-10 pt-16 lg:pt-32 mx-auto max-w-4xl font-title">
         <h1 className="text-4xl text-center text-gray-800 mb-8">SKILLS</h1>
         {skills.map((category, index) => (
           <div key={index} className="mb-2">
@@ -161,7 +161,7 @@ const SkillsComponent = () => {
                   <img
                     src={skill.logo}
                     alt={skill.tech}
-                    className="h-8 w-8 object-contain "
+                    className="h-10 w-10 object-contain "
                   />
                   <span className="text-gray-400 font-small text-xs">{skill.tech}</span>
                 </div>

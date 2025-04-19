@@ -14,7 +14,7 @@ const AboutComponent = () => {
         I'm VIGNESH R. IREDDY,
       </h1>
       <p className="text-base text-justify md:text-lg lg:text-xl text-gray-600 leading-relaxed">
-        a Java Developer with expertise in building scalable and robust
+        a Software Engineer with expertise in building scalable and robust
         applications using Java, Spring Boot, and emerging frontend
         technologies. With a commitment to clean code, efficient architecture,
         and continuous learning, I specialize in creating seamless user
@@ -26,7 +26,7 @@ const AboutComponent = () => {
       <div className="flex justify-center pt-2">
         <a href="https://linkedin.com/in/vignesh8ireddy" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faLinkedin } /></a>
         <a href="https://github.com/vignesh8ireddy" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faGithub } /></a>
-        <a href="mailto:vignesh8ireddy@gmail.com" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faEnvelope } /></a>
+        <a href="mailto:vigneshreddyireddy@gmail.com" target="_blank"><FontAwesomeIcon  className="size-10 p-3" icon={ faEnvelope } /></a>
       </div>
 
     </div>
