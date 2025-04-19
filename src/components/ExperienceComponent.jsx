@@ -8,7 +8,7 @@ const ExperienceComponent = () => {
       id: 1,
       title: "Software Engineer",
       company: "Goldman Sachs",
-      duration: "Dec 2022 - Jul 2023",
+      duration: "Apr 2021 - Jul 2023",
       location: "California, USA",
       logo: gs
     },
@@ -17,7 +17,7 @@ const ExperienceComponent = () => {
       id: 2,
       title: "Software Engineer",
       company: "Allstate",
-      duration: "Apr 2021 - Nov 2021",
+      duration: "Feb 19 - Mar 2021",
       location: "Illinois, USA",
       logo: allstate
     }
