@@ -17,7 +17,7 @@ const ExperienceComponent = () => {
       id: 2,
       title: "Software Engineer",
       company: "Allstate",
-      duration: "Feb 19 - Mar 2021",
+      duration: "Feb 2019 - Mar 2021",
       location: "Illinois, USA",
       logo: allstate
     }
