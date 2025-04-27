@@ -11,7 +11,7 @@ import CertificationsComponent from "./components/CertificationsComponents";
 import Hero from "./assets/vignesh.jpg"; // Import the hero image
 import EducationComponent from "./components/EducationComponent";
 
-function App() {
+function /*App*/() {
   return (
     <div className="bg-gray-50 flex flex-col h-screen">
       {/* Navbar Component */}
