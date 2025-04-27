@@ -12,7 +12,7 @@ import Hero from "./assets/vignesh.jpg"; // Import the hero image
 import EducationComponent from "./components/EducationComponent";
 
 function App() {
-  /*return (
+  return (
     <div className="bg-gray-50 flex flex-col h-screen">
       {/* Navbar Component */}
       <NavbarComponent />
@@ -42,7 +42,7 @@ function App() {
         </div>
       </div>
     </div>
-  );*/
+  );
 }
 
 export default App;
