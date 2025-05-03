@@ -1,25 +1,45 @@
 import React from "react";
-import gs from "../assets/experience/GoldmanSachs.png";
+import a10 from "../assets/experience/A10Networks.png";
 import allstate from "../assets/experience/Allstate.png";
+import metlife from "../assets/experience/MetLife.png";
+import amex from "../assets/experience/AmEx.png";
 
 const ExperienceComponent = () => {
   const experiences = [
     {
       id: 1,
       title: "Software Engineer",
-      company: "Goldman Sachs",
-      duration: "Apr 2021 - Jul 2023",
+      company: "A10 Networks",
+      duration: "Dec 2022 - Jul 2023",
       location: "California, USA",
-      logo: gs
+      logo: a10
     },
 
     {
       id: 2,
       title: "Software Engineer",
       company: "Allstate",
-      duration: "Feb 2019 - Mar 2021",
+      duration: "Apr 2021 - Nov 2022",
       location: "Illinois, USA",
       logo: allstate
+    },
+
+    {
+      id: 3,
+      title: "Software Engineer",
+      company: "MetLife",
+      duration: "Jan 2020 - Mar 2021",
+      location: "Kansas, USA",
+      logo: metlife
+    },
+
+    {
+      id: 2,
+      title: "Software Engineer",
+      company: "American Express",
+      duration: "Feb 2019 - Dec 2019",
+      location: "New York, USA",
+      logo: amex
     }
   ];
 
@@ -31,7 +51,7 @@ const ExperienceComponent = () => {
           {experiences.map((exp) => (
             <div
               key={exp.id}
-              className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200"
+              className="bg-gray-32 p-6 rounded-lg shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105 border border-gray-200"
             >
               <div className="flex flex-col items-center text-center">
                 {/* Logo */}
@@ -39,7 +59,7 @@ const ExperienceComponent = () => {
                 <img
                   src={exp.logo}
                   alt={`${exp.company} Logo`}
-                  className="w-42 h-42 object-contain mb-4"
+                  className="w-30 h-30 object-contain mb-4"
                 />
                 {/* Edu Name */}
                 <h3 className="text-xl font text-gray-900 mb-2">{exp.title}</h3>
