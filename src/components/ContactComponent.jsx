@@ -22,8 +22,8 @@ const ContactComponent = () => {
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-gray-400 mr-2'></FaMapMarkedAlt>
-                <a href="https://www.google.com/maps?q=13929+Barkley+St,+Overland+Park,+KS+66223"  className='hover:underline'>
-                <span>13929 Barkley Street, Overland Park, KS, 66223</span></a>
+                <a href="https://www.google.com/maps?q=8829+Roosevelt+Way+NE,+Seattle,+WA+98115."  className='hover:underline'>
+                <span>8829 Roosevelt Way NE, Seattle, WA 98115.</span></a>
             </div>
           </div>
           <div className='flex-1 w-full'>
